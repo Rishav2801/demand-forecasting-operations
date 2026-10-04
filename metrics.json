@@ -1,0 +1,25 @@
+{
+  "selected_model": "ridge",
+  "test": {
+    "mae": 905.4150239790795,
+    "rmse": 1239.417380432766,
+    "wape": 0.15430181984584443,
+    "interval_coverage": 0.8531468531468531,
+    "mean_interval_width": 3122.766904979271,
+    "mae_improvement_vs_seasonal_naive": 0.2563603924609964
+  },
+  "seasonal_naive_test": {
+    "mae": 1217.5454545454545,
+    "rmse": 1780.2994778320951,
+    "wape": 0.20749542961608775
+  },
+  "calibration_radius": 1561.3834524896356,
+  "train_end": "2012-05-02",
+  "calibration_start": "2012-05-03",
+  "calibration_end": "2012-08-10",
+  "test_start": "2012-08-11",
+  "test_end": "2012-12-31",
+  "source_sha256": {
+    "bike.zip": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401"
+  }
+}
